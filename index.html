@@ -9,5 +9,20 @@
     <div class="btn-container">
         <button type="button" class="login-btn" onclick="openModel()">🔒Login-now</button>
     </div>
+
+    <div class="overlay" id="overlay">
+        <div class="model">
+            <img src="./images/close.png" alt="" class="close" onclick="closeModel()">
+            <h1>Login-now</h1>
+            <form class="form">
+                <input type="text" placeholder="Enter your Email" class="form-input">
+                <input type="text" placeholder="Enter your phone number" class="form-input">
+                <input type="password" placeholder="Enter your Password" class="form-input">
+                <p class="text">Forgot Password?</p>
+                <button class="btn" onclick="closeModel()">Login</button>
+                <p class="text">Don't have an account? <a href="#" class="sign-up">Sign Up</a></p>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
