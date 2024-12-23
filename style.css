@@ -61,3 +61,38 @@ body{
     gap: 10px;
     align-items: center;
 }
+
+.form-input{
+    width: 80%;
+    margin-top: 10px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid #8f8d8d;
+    color: #000066;
+    font-size: 15px;
+}
+h1{
+    margin-top: 15px;
+    text-align: center;
+    padding: 15px;
+    color: #000066;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: #000066;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    width: 88%;
+    border-radius: 20px;
+}
+.text{
+    font-size: 15px;
+    padding-bottom: 10px;
+    color: #1b1bcc;
+}
+.sign-up{
+    color: #000066;
+    text-decoration: none;
+}
